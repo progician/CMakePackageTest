@@ -1,0 +1,3 @@
+get_filename_component( _IMPORT_PREFIX "${CMAKE_CURRENT_LIST_FILE}" PATH )
+include( ${_IMPORT_PREFIX}/FooLib.cmake )
+unset( _IMPORT_PREFIX )
